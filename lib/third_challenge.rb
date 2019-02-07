@@ -13,12 +13,10 @@ def second_challenge
         :age = "15"
         :status = "alive"},
       :hero_friends [
-        :Benvolio => {
-          :name = "Benvolio",
+        {:name = "Benvolio",
           :age = "17",
           :attitude = "worried"},
-        :Mercutio => {
-          :name = "Mercutio",
+        {:name = "Mercutio",
           :age = "18",
           :attitude = "hot-headed"}        }
         ]      
@@ -37,11 +35,12 @@ def second_challenge
         :status = "alive"
       },
       :heroine_friends => [
-        :Steven => {
-          :name = "Steven",
+        {:name = "Steven",
           :age - "30",
-          :attitude = "confused"
-        }
+          :attitude = "confused"},
+        {:name = "Nurse",
+          :age = "44",
+          :attitude = "worried"}
         ]      
       }}
 
